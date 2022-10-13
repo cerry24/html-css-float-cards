@@ -44,5 +44,14 @@ header>h1 {
 
 .riquadro img {
     width: 6rem;
+    padding-right: .8rem;
+}
+
+div>p {
+    padding-top: .5rem;
+    line-height: 1.3rem;
+}
+.personal-info {
+    font-size: .8rem;
 }
 
