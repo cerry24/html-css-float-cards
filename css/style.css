@@ -17,27 +17,32 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
-    text-align: center;
     margin-top: 2rem;
 }
 
 header>h1 {
     color: #e53170;
     font-weight: 900;
+    text-align: center;
 }
 
-main>p {
-    padding-bottom: 2rem;
+#intro-paragraph {
+    text-align: center;
 }
 
 .riquadro {
     background-color: #0f0e17;
-    width: calc(100% / 3 - 1rem);
-    height: 6rem;
-    margin-right: 1rem;
+    color: white;
+    width: calc(100% / 3 - 2rem);
+    margin-left: 1.5rem;
+    margin-top: 3rem;
 }
 
 .float-left {
     float: left;
+}
+
+.riquadro img {
+    width: 6rem;
 }
 
