@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header>h1 {
+    color: #e53170;
+    font-weight: 900;
+}
+
+main>p {
+    padding-bottom: 2rem;
+}
+
+.riquadro {
+    background-color: #0f0e17;
+    width: calc(100% / 3 - 1rem);
+    height: 6rem;
+    margin-right: 1rem;
+}
+
+.float-left {
+    float: left;
+}
+
